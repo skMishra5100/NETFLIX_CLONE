@@ -1,0 +1,99 @@
+#hero-section {
+    min-height: 120vh;
+    max-width: 100%;
+    min-width: 100%;
+    background: url('../img/netflixHomeIMG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "poppins";
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.movie-list {
+    display: flex;
+    max-height: 40vh;
+    /* min-height: 25; */
+    min-width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 25px;
+    margin-top: 170px;
+    border: 0;
+    margin-left: 7%;
+    scroll-behavior:auto;
+}
+#first-movie{
+position: absolute;
+top: 27%;
+left: 7%;
+font-size: 1.7rem;
+font-weight: 800;
+}
+#finalList{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    position: relative;
+    
+}
+.movie-list::-webkit-scrollbar{
+    display: none;
+}
+
+
+.movie-card {
+    min-width: 25vw;
+    min-height: 20vh;
+    border-radius: 7px;
+    max-height: 40vh;
+    position: relative;
+    border: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#movie-img {
+    height: 240px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.movie-card>#p1 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 0.8rem;
+}
+
+.movie-card>#p2 {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 0.8rem;
+}
+
+/* #second-movie{
+    position: absolute;
+    top: 53%;
+    left: 7%;
+    background-color: blue;
+}
+#third-movie{
+    position: absolute;
+    top: 53%;
+    left: 7%;
+    background-color: yellow;
+}
+#fourth-movie{
+    position: absolute;
+    top: 53%;
+    left: 7%;
+    background-color: green;
+} */

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.Homeheader {
+    height: 15vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: hidden;
+    
+}
+
+.ActiveHeader{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.Header-1st {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 750px;
+    min-height: 100%;
+}
+.header-icons{
+    min-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0;
+    height: 100%;
+    
+}
+
+.heading-list ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    gap: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+.hero-btn{
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.button-2,.button{
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+outline: 0;
+border: 0;
+border-radius: 6px;
+}
+.button-2{
+    background-color: rgba(143, 141, 141, 0.685);
+    color: #fff;
+}
+
+.hero-content{
+    height: 30vh;
+  padding:0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.movies-section{
+    margin-bottom: 10%;
+}

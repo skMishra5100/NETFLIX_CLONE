@@ -1,0 +1,151 @@
+@media screen and (max-width:768px) and (min-width:425px) {
+    .header {
+        min-width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        justify-content: space-between;
+
+    }
+
+    .eng button {
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+
+    .sign button {
+        padding: 6px 7px;
+        font-size: 0.8rem;
+    }
+
+    .png {
+        padding: 10px;
+    }
+
+    #png {
+        max-height: 30px;
+        max-width: 140px;
+    }
+
+    .content {
+        min-height: 20vh;
+    }
+
+    .one {
+        font-size: 1.3rem;
+        padding: 5px 0;
+    }
+
+    .two {
+        font-size: 1.9rem;
+        padding: 7px 0;
+    }
+
+    .three {
+        font-size: 1.3rem;
+        padding: 7px 0;
+    }
+
+    .btn button {
+        padding: 5px 7px;
+        font-size: 1rem;
+        height: 40px;
+        width: 150px;
+    }
+
+    .header {
+        min-height: 100vh;
+        min-width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .first {
+        min-width: 100%;
+    }
+
+    .way {
+        min-height: 50vh;
+        gap: 50px;
+        padding: 25px;
+    }
+
+    .text h1 {
+        font-size: 1.8rem;
+        padding: 10px 0;
+    }
+
+    .text p {
+        font-size: 0.8rem;
+    }
+
+    .qna h1 {
+        font-size: 2rem;
+        padding: 15px 0;
+    }
+
+    .qa {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .qa span {
+        font-size: 1.7rem;
+    }
+
+    .butn button {
+        padding: 5px 7px;
+        font-size: 1rem;
+        height: 40px;
+        width: 150px;
+        font-weight: 500;
+        margin: 10px;
+    }
+
+    .end {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+
+    .list {
+        list-style-type: none;
+        margin: 30px 15px;
+    }
+
+    .list ul li a {
+        font-size: 0.8rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .english button {
+        font-size: 0.9rem;
+        padding: 7px 30px;
+    }
+
+    footer {
+        min-height: 80vh;
+    }
+
+    .list ul li {
+        padding: 5px;
+    }
+
+    .end {
+        min-height: 65vh;
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
