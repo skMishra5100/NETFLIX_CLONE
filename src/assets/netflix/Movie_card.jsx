@@ -32,20 +32,22 @@ const Movie_card = ({ title, Movie }) => {
 
     return (
         <>
-        <div id='finalList'>
-                    <h1 id="first-movie">{title}</h1>
-            <div className="movie-list" ref={MOVIE_LIST} >
-           
+            <div id='finalList'>
+                <h1 id="first-movie">{title}</h1>
+                <div className="movie-list" ref={MOVIE_LIST} >
+
                     {ApiDATA.map((Api, index) => <div key={index} className='movie-card'>
                         <img id='movie-img' src={`https://image.tmdb.org/t/p/w500` + Api.backdrop_path} alt="" />
-                        <p id='p1'>title: {Api.title}</p>
-                        <p id='p2'>date: {Api.release_date}</p>
+                     
+                            <p id='p1'>title: {Api.title}</p>
+                            <p id='p2'>date: {Api.release_date}</p>
+                     
                     </div>
 
                     )
                     }
+                </div>
             </div>
-            </div> 
         </>
     )
 }

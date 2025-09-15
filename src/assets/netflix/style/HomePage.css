@@ -26,23 +26,26 @@ body {
     margin-top: 170px;
     border: 0;
     margin-left: 7%;
-    scroll-behavior:auto;
+    scroll-behavior: auto;
 }
-#first-movie{
-position: absolute;
-top: 27%;
-left: 7%;
-font-size: 1.7rem;
-font-weight: 800;
+
+#first-movie {
+    position: absolute;
+    top: 27%;
+    left: 7%;
+    font-size: 1.7rem;
+    font-weight: 800;
 }
-#finalList{
+
+#finalList {
     display: flex;
     flex-direction: column;
-    margin:0;
+    margin: 0;
     position: relative;
-    
+
 }
-.movie-list::-webkit-scrollbar{
+
+.movie-list::-webkit-scrollbar {
     display: none;
 }
 
@@ -62,7 +65,7 @@ font-weight: 800;
     height: 240px;
     width: 100%;
     border-radius: 10px;
-    
+
 }
 
 .movie-card>#p1 {

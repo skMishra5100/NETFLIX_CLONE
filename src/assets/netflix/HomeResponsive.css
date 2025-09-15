@@ -1,0 +1,267 @@
+@media screen and (min-width:1000px) {
+    #hamburger-icon {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+
+    .Homeheader {
+        min-width: 100vw;
+        justify-content: space-around;
+    }
+
+    .header-bell,
+    .search-bar,
+    .header-smile-logo {
+        display: none;
+    }
+
+    #H-icons {
+        display: none;
+    }
+
+    #header {
+        justify-content: space-between;
+        width: 102vw;
+        padding: 10px;
+    }
+
+
+    .movies-section {
+        margin-bottom: 5%;
+    }
+
+    #hamburger-icon {
+        display: none;
+    }
+
+    .hero-content {
+        min-height: 30vh;
+    }
+
+}
+
+@media screen and (min-width:425px)and (max-width:767px) {
+
+
+    .Homeheader {
+        min-width: 100vw;
+        justify-content: space-around;
+
+
+    }
+
+    #list {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #header {
+        min-width: 102vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero-content {
+        min-height: 50vh;
+        padding: 0px;
+    }
+
+    .hero {
+        min-width: 90vw;
+    }
+
+    .hero-content p {
+
+        font-size: 0.9rem;
+    }
+
+    .button,
+    .button-2 {
+        font-size: 0.7rem;
+        text-align: center;
+        height: 35px;
+        padding: 1px 4px;
+        justify-content: space-evenly;
+    }
+
+    .button>img,
+    .button-2 img {
+        height: 15px;
+        width: 15px;
+    }
+
+    #movie-img {
+        max-height: 35vh;
+        min-width: 30vw;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .movie-card {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movie-card>#p1,
+    #p2 {
+        font-size: 0.5rem;
+    }
+
+    /* LOGIN */
+    .png img {
+        width: 130px;
+        height: 45px;
+    }
+
+    .login-container {
+
+        padding: 30px;
+
+        width: 70%;
+        text-align: center;
+        margin: 20px;
+        border: 1px solid rgba(253, 251, 251, 0.226);
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .login-form h2 {
+        margin-bottom: 15px;
+    }
+
+    .login-form input {
+        margin: 7px 0;
+    }
+
+    .login-form button {
+        margin: 10px 0;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:424px) {
+
+
+    .Homeheader {
+        min-width: 100vw;
+        justify-content: space-around;
+
+
+    }
+
+    #list {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #header {
+        min-width: 102vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero-content {
+        min-height: 50vh;
+        padding: 0px;
+
+    }
+
+    .hero {
+        min-width: 90vw;
+    }
+
+    .hero-content p {
+
+        font-size: 0.9rem;
+    }
+
+    .hero-btn {
+        max-width: 200px;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .button,
+    .button-2 {
+        font-size: 0.6rem;
+        height: 35px;
+        min-width: 100px;
+        padding: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .button>img,
+    .button-2 img {
+        height: 15px;
+        width: 15px;
+    }
+
+    #movie-img {
+        max-height: 35vh;
+        min-width: 40vw;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .movie-card {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movie-card>#p1,
+    #p2 {
+        font-size: 0.5rem;
+    }
+
+
+    .png img {
+        width: 120px;
+        height: 30px;
+    }
+
+    .login-container {
+        padding: 30px;
+        width: 85%;
+        text-align: center;
+        margin: 20px;
+        border: 1px solid rgba(253, 251, 251, 0.226);
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .login-form h2 {
+        margin-bottom: 15px;
+    }
+
+    .login-form input {
+        margin: 7px 0;
+    }
+
+    .login-form button {
+        margin: 10px 0;
+    }
+
+
+}

@@ -8,6 +8,7 @@ import Section3 from "./assets/netflix/section3";
 import Section4 from "./assets/netflix/section4";
 import { Outlet } from "react-router-dom";
 import "./assets/netflix/responsive.css";
+import "./assets/netflix/HomeResponsive.css"
 
 const App = () => {
 

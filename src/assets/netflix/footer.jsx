@@ -53,7 +53,6 @@ const Footer = () => {
     <button>english</button>
 </div>
 
-
 </footer>
 
   )

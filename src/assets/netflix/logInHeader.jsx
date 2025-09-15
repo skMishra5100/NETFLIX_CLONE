@@ -1,22 +1,23 @@
 import React from 'react'
 import  Heading from "./img/Logonetflix.png";
 import Log from './log';
+import { Link } from 'react-router-dom';
 
 const LogHeader = () => {
   return (
  
 <header>
 
-<div class="header">
+<div className="header">
 <nav>
-    <div class="png">
-        <img height="50px" width="190px" src={Heading} alt=""/>
+    <div className="png">
+       <Link to="/"> <img height="50px" width="190px" src={Heading} alt=""/></Link>
     </div>
-    <div class="flex">
-        <div class="eng">
+    <div className="flex">
+        <div className="eng">
             <button> english </button>
         </div>
-        <div class="sign">
+        <div className="sign">
             <button> sign In </button>
         </div>
     </div>
